@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Geneva', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #2c0a4c;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav-item {
+    color: white;
+    text-decoration: none;
+}
+
+.header__login-btn {
+    background: white;
+    color: #2c0a4c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card {
+    background-color: #f0eff0;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.card__container {
+    text-align: left;
+}
+
+.card__image--container {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #06223e;
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card__name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.card__price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c0a4c;
+    margin-bottom: 15px;
+}
+
+.card__buy-btn {
+    background-color:#2c0a4c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.subscribe {
+    background-color: #d4d4d0;
+    border-radius: 15px;
+    padding: 25px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.subscribe__form-email {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.subscribe__form-btn {
+    background-color: #2f2b32;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20;
+    font-weight: bold;
+}
